@@ -12,20 +12,20 @@ out.PROJECT = "MyCoolProject";
 % The version of Matlab you're developing against. This will be the version of
 % Matlab that the project builds against (on Mac and Windows anyway), and the minimum
 % required version declared in the project Toolbox file.
-out.PROJECT_MATLAB_VERSION = "R2019b";
+out.PROJECT_MATLAB_VERSION = "R2021b";
 
 % The name of the top-level Matlab package that your project defines and keeps
 % its code in. This is the "+<package>" directory that'll be directly under Mcode,
 % and is the "namespace" that your project lives in.
 % It is conventional for package names to be in all lower case.
 % Nothing but letters allowed!
-out.PACKAGE = "mycoolpackage";
+out.PACKAGE = "metametric";
 
 % Your GitHub user name or organization name that's hosting the project
-out.GHUSER = "mygithubusername";
+out.GHUSER = "WilliamCoulter";
 
 % If you want to provide a contact email for your project, put it here. Optional.
-out.PROJECT_EMAIL = "";
+out.PROJECT_EMAIL = "wwcoulter6@gmail.com";
 
 % The site generator tool you want to use for the project documentation.
 %
@@ -48,13 +48,13 @@ out.PROJECT_EMAIL = "";
 out.DOCTOOL = "gh-pages-raw";
 
 % Human-readable name of the project's primary author or maintainer
-out.PROJECT_AUTHOR = "Your Name Here";
+out.PROJECT_AUTHOR = "William Coulter";
 
 % Everything below here is optional! If you omit it, you'll end up with placeholder text
 % in some of your documentation, but the project will still work
 
 % One-sentence summary of the project. No <, >, /, or & characters allowed!
-out.PROJECT_SUMMARY = "Short summary of project goes here";
+out.PROJECT_SUMMARY = "App for optimizing spectral power distributions under user-defined constraints";
 
 % Multi-sentence project description. No <, >, /, or & characters allowed!
 out.PROJECT_DESCRIPTION = "Longer description of project goes here.";
